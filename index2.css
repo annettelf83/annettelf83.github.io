@@ -120,7 +120,18 @@ body {
     margin-right: 30px;
     margin-bottom: 10px;
   }
-
-  
- 
+ul
+{
+  color: #333
+}
+  li{
+    font-size: 100%;
+    font-weight: 100%;
+  }
+  your-project/
+  ├── scss
+  │   └── custom.scss
+  └── bootstrap/
+      ├── js
+      └── scss
   
