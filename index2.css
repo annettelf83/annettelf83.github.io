@@ -2,10 +2,10 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 100%;
     color: #333;
-    background: #efeee7;
+    background:#eee;
   }
   
   header {
@@ -32,9 +32,73 @@ body {
   
   .container {
     width: 1024px;
-    margin: 0 auto;
   }
-  
+    margin:0 auto: body {
+      padding: 0px;
+      margin: 0px;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height:30%;
+      color: #333;
+      background: #eee;
+    }
+    
+    header {
+      background:#333;
+    }
+    
+    h1 {
+      padding: 20px;
+      margin: 20px;
+      margin-bottom: 20px;
+      font-size: 50px;
+      color: #eee;
+      text-align: center;
+      background: #333;
+    }
+    
+    h2 {
+      font-family: 'Pacifico', cursive;
+      font-size: 50px;
+    }
+    
+    a {
+      color: #6eabea;
+    }
+    
+    .container {
+      width: 1024px;
+      margin: 0 auto;
+    }
+    
+    #main-bio,
+    #contact-info,
+    #bio-image {
+      float: left;
+      width: 30%;
+    }
+    
+    #main-bio {
+      font-family: 'Lobster', cursive;
+      width: 70%;
+    }
+    
+    #contact-info {
+      color: #333;
+      display: inline;
+    }
+    input :placeholder:first {
+      width: 50%;
+    }
+    button {
+      height: 100%;
+      width: 100%;
+      background: #6eabea;
+    }
+    #bio-image {
+      width: 200px;
+      height: 200px;
+      margin-right: 20px;
+    }
   #main-bio,
   #contact-info,
   #bio-image {
@@ -46,7 +110,7 @@ body {
   }
   
   #contact-info {
-    color: #333
+    color: #333;
     width: 30%;
   }
   
@@ -54,8 +118,5 @@ body {
     width: 200px;
     height: 200px;
     margin-right: 20px;
-  }
-  p {
-      
   }
   
