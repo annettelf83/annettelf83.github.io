@@ -41,7 +41,11 @@ body {
       color: #333;
       background: #eee;
     }
-    
+   
+    p{
+      margin-right: 5%;
+    }
+    }
     header {
       background:#333;
     }
@@ -73,6 +77,7 @@ body {
     #main-bio,
     #contact-info,
     #bio-image {
+      padding-bottom: 5px;
       float: left;
       width: 30%;
     }
@@ -87,7 +92,7 @@ body {
       display: inline;
     }
     input :placeholder:first {
-      width: 50%;
+      width: 30%;
     }
     button {
       height: 100%;
@@ -107,16 +112,24 @@ body {
   
   #main-bio {
     width: 70%;
+   
   }
   
   #contact-info {
     color: #333;
     width: 30%;
+    font-size: 70%;
+    margin-left: 0px;
+    
   }
   
   #bio-image {
     width: 200px;
     height: 200px;
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
   }
+
+  
+ 
   
